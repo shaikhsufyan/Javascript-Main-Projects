@@ -1,0 +1,65 @@
+ .first{
+    max-width: 400px;
+    background-color: gray;
+    border-radius: 10px;
+    
+
+    
+}
+.first p{
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+.second{
+    max-width: 400px;
+    background-color: gray;
+    border-radius: 10px;
+    
+
+    
+}
+.second p{
+    color: white;
+    text-align: center;
+     
+
+}
+
+.third{
+    max-width: 400px;
+    background-color: gray;
+    border-radius: 10px;
+    
+
+    
+}
+.third p{
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+
+}
+span{
+    display: flex;
+    justify-content: space-between;
+     
+    
+}
+span h1{
+    font-size: 20px;
+    margin-left: 20px;
+}
+span i{
+    margin: 20px;
+}
+.container{
+    margin-left: 30%;
+}
+@media only screen and (max-width: 440px) {
+     .container{
+         margin-left: 1%;
+     }
+  }
