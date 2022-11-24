@@ -1,0 +1,277 @@
+body {
+  background-color: rgb(206, 189, 161);
+  font-family: "Mulish", sans-serif;
+}
+
+.logo {
+  position: relative;
+  left: 47%;
+  width: 90px;
+}
+
+.feature-heading {
+  text-align: center;
+  font-size: 17px;
+  color: #f5b002;
+  margin-top: -26px;
+}
+
+.feature-heading .head {
+  font-size: 45px;
+  color: crimson;
+}
+.feature-heading .feature {
+  margin-top: -20px;
+}
+.feature-heading span {
+  color: seagreen;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  text-align: center;
+  align-items: center;
+  width: 250px;
+  height: 160px;
+  background-color: rgba(255, 0, 0, 1);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  margin-inline: 20px;
+  margin: 20px;
+}
+.card h3 {
+  font-size: 25px;
+}
+
+.card p {
+  font-size: 20px;
+  color: #f5b002;
+}
+.Hex-text {
+  text-align: center;
+  margin-top: 60px;
+}
+.Hex-text h1 {
+  color: rgb(65, 65, 182);
+}
+.Hex-text h2 {
+  color: rgb(223, 223, 22);
+  font-size: 34px;
+}
+
+.hex-input {
+  display: flex;
+
+  justify-content: center;
+}
+.hex-input input {
+  width: 50px;
+  height: 30px;
+  border: 1px solid yellow;
+  border-radius: 6px;
+  margin: 2px;
+  text-align: center;
+  margin-top: 40px;
+}
+.hex-input button {
+  width: 100px;
+  height: 33px;
+  background-color: rgb(224, 14, 14);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 17px;
+  margin: 30px;
+}
+.Hex-text p {
+  color: #553e05;
+  font-size: 19px;
+}
+.Hex-text span {
+  color: rgb(255, 21, 60);
+}
+#convert {
+  border-bottom: 3px solid rgb(12, 12, 43);
+  width: 300px;
+  margin-inline: 80px;
+  position: relative;
+  top: 40px;
+}
+.rgb-input {
+  text-align: center;
+}
+.rgb {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.rgb-input input {
+  width: 150px;
+  height: 34px;
+  border: 1px solid yellow;
+  border-radius: 5px;
+}
+.rgb-input button {
+  width: 100px;
+  height: 33px;
+  background-color: rgb(224, 14, 14);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 17px;
+  margin: 30px;
+}
+#rgb {
+  border-bottom: 3px solid rgb(16, 16, 75);
+  width: 300px;
+  margin-inline: 70px;
+}
+.range-input {
+  text-align: center;
+  color: rgb(236, 22, 57);
+}
+.ranges {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.rg-in {
+  margin-inline: 110px;
+}
+.rg-in input {
+  width: 400px;
+  height: 70px;
+  background-color: transparent;
+  border: 1px solid gray;
+  border-radius: 10px;
+  font-size: 32px;
+  text-align: center;
+}
+.rgb-inpt {
+  color: rgb(245, 38, 72);
+  font-size: 25px;
+}
+.text {
+  text-align: center;
+  color: rgb(255, 251, 14);
+}
+.hex-value {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.hex-output {
+  margin-inline: 60px;
+}
+.hex-output input {
+  width: 400px;
+  height: 70px;
+  background-color: transparent;
+  border: 1px solid gray;
+  border-radius: 10px;
+  font-size: 32px;
+  text-align: center;
+}
+.hex-inpt input {
+  width: 160px;
+  height: 50px;
+  border: 1px solid rgb(226, 53, 82);
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: rgb(70, 243, 255);
+}
+.hex-inpt button {
+  width: 90px;
+  height: 40px;
+  border: none;
+  background-color: #f5b002;
+  color: white;
+  border-radius: 6px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+.rgb-head {
+  text-align: center;
+  margin-top: 40px;
+  color: rgb(62, 120, 179);
+}
+.all-rgb {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.inpts {
+  margin-inline: 50px;
+  display: flex;
+}
+.inpts input {
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  font-size: 20px;
+  margin: 6px;
+  background-color: rgb(70, 243, 255);
+  border: 1px solid rgb(35, 99, 238);
+  border-radius: 6px;
+}
+.inpts button {
+  width: 90px;
+  height: 40px;
+  border: none;
+  background-color: #f8b304;
+  color: white;
+  border-radius: 6px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+.rgb-out input {
+  width: 400px;
+  height: 70px;
+  background-color: transparent;
+  border: 1px solid gray;
+  border-radius: 10px;
+  font-size: 32px;
+  text-align: center;
+}
+.rdm {
+  text-align: center;
+  color: rgb(255, 251, 14);
+}
+.rmd-inputs {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.rmd-inputs input {
+  width: 500px;
+  height: 50px;
+  background-color: rgb(233, 42, 74);
+  color: white;
+  font-size: 35px;
+  border-radius: 30px;
+  border: 2px solid rgb(252, 206, 206);
+  text-align: center;
+  margin-top: 30px;
+}
+.rdm-btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.rdm-btn button {
+  width: 160px;
+  height: 45px;
+  background-color: #f5b002;
+  color: white;
+  border: 2px solid white;
+  font-size: 27px;
+  border-radius: 20px;
+  margin-top: 20px;
+}

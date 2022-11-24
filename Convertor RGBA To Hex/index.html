@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto+Condensed:wght@700&family=Roboto+Slab&family=Roboto:wght@300&family=Source+Sans+Pro:wght@300&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+
+  <img src="logo.png" class="logo">
+
+  <div class="feature-heading">
+
+    <h1 class="head">Shade <span>Up</span></h1>
+    <h1 class="feature">Features</h1>
+  </div>
+
+  <div class="main-container">
+
+
+    <div class="card">
+      <a>
+        <div class="text-center">
+          <h3>HEX to RGB Converter</h3>
+          <p>Converts Code from HEX value to RGB value</p>
+        </div>
+      </a>
+    </div>
+
+
+    <div class="card">
+      <a>
+        <div class="text-center">
+          <h3>RGB to HEX Converter</h3>
+          <p>Converts Code from RGB value to HEX value</p>
+        </div>
+      </a>
+    </div>
+
+
+    <div class="card">
+      <a>
+        <div class="text-center">
+          <h3>Color by HEX Code</h3>
+          <p>See the color by knowing the HEX code</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+
+  <div class="main-container">
+
+    <!-- cards -->
+    <div class="card">
+      <a>
+        <div class="text-center">
+          <h3>Color by RGB Code</h3>
+          <p>Display the color by RGB value</p>
+        </div>
+      </a>
+    </div>
+
+
+    <div class="card">
+      <a>
+        <div class="text-center">
+          <h3>Select by RGB Range</h3>
+          <p>Choose by changing the Range of RGB</p>
+        </div>
+      </a>
+    </div>
+
+
+    <div class="card">
+      <a>
+        <div class="text-center">
+          <h3>Random Color Picker</h3>
+          <p>Choose randomly by tapping the button</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+
+
+  <div class="Hex-text">
+    <h1>RGB To Hex</h1>
+    <p><span>Note:</span>Enter 6 digit Hex Code <span>without # sign</span></p>
+  </div>
+
+  <div class="hex-input">
+    <div class="input">
+      <input type="number" placeholder="R" value="" id="first-input">
+      <input type="number" placeholder="G" value="" id="sec-input">
+      <input type="number" placeholder="B" value="" id="th-input"><br>
+      <button id="btn" onclick="hexFindBtn()">Convert</button>
+    </div>
+
+    <div class="output">
+      <h1 id="convert"></h1>
+    </div>
+  </div>
+
+
+  <!-- HEX TO RGB FIND -->
+
+  <div class="Hex-text">
+    <h2 class=""> Hex to RGB </h2>
+
+  </div>
+
+  <div class="rgb">
+    <div class="rgb-input">
+      <input type="text" value="#" id="rgb-input"><br>
+      <button onclick="rgbFindBtn()">Convert </button>
+    </div>
+    <div>
+      <h1 id="rgb"></h1>
+    </div>
+  </div>
+
+  <!-- RANGE SELECTOR RGB -->
+
+  <br>
+
+  <div class="range-input">
+    <h1>Range Selector RGB Range</h1>
+  </div>
+  <div class="ranges">
+    <div class="rgb-inpt">
+      R
+      <input type="range" value="0" min="0" max="255" id="red"><br>G
+      <input type="range" value="0" min="0" max="255" id="blue"><br>B
+      <input type="range" value="0" min="0" max="255" id="green"><br>
+    </div>
+    <div class="rg-in">
+      <input value="" id="main-box">
+    </div>
+
+  </div>
+
+
+  <!--  Color By Hex -->
+  <br>
+  <br>
+  <div class="text">
+    <h1>Color By Hex Code</h1>
+  </div>
+  <div class="hex-value">
+    <div class="hex-inpt">
+      <input type="text" value="#" id="hex-code">
+      <button id="show-btn">show</button>
+    </div>
+    <div class="hex-output">
+      <input type="" value="" id="hex-output">
+    </div>
+
+  </div>
+
+
+
+  <!-- Color By RGB -->
+  <br>
+  <div class="rgb-head">
+    <h1>Color By RGB Code</h1>
+  </div>
+
+  <div class="all-rgb">
+    <div class="rgb-out">
+      <input type="text" id="rgb-value">
+    </div>
+    <div class="inpts">
+      <input type="text" placeholder="R" style="width: 50px;" id="redV">
+      <input type="text" placeholder="G" style="width: 50px;" id="greenV">
+      <input type="text" placeholder="B" style="width: 50px;" id="blueV"><br>
+      <button onclick="ColorByRGB()">show</button>
+    </div>
+  </div>
+
+
+
+  <!-- Random Color Picker BTN -->
+  <br><br>
+
+  <h1 class="rdm">Random Color Button</h1>
+  <div class="rdm-btn">
+    <button id="random">Hit Me</button>
+  </div>
+
+  <div class="rmd-inputs">
+
+    <input type="text" id="random-input" value="#E75480">
+  </div>
+
+  <script src="script.js"> </script>
+
+
+</body>
+
+</html>
