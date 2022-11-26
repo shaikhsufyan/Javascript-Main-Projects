@@ -1,0 +1,147 @@
+<!-- <!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>
+        How to remove spaces from
+        a string using JavaScript?
+    </title>
+</head>
+ 
+<body>
+    <h1 style="color: green">
+        GeeksforGeeks
+    </h1>
+     
+    <b>
+        How to remove spaces from
+        a string using JavaScript?
+    </b>
+     
+     
+<p>
+        Original string is:
+        Geeks for Geeks Portal
+    </p>
+ 
+     
+     
+<p>
+        New String is:
+        <span class="output"></span>
+    </p>
+ 
+     
+    <button onclick="removeSpaces()">
+        Remove Spaces
+    </button>
+     
+    <script type="text/javascript">
+        function removeSpaces() {
+            originalText =
+                "Geeks for Geeks Portal";
+         
+            removedSpacesText = [...originalText].reduce((accum, char)=> (char===" ") ? accum : accum+char, '') ;
+         
+            document.querySelector('.output').textContent
+                    = removedSpacesText;
+        }
+    </script>
+</body>
+ 
+</html> -->
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="head">hello Guys how are you</h1>
+    <input type="text" placeholder="Enter the text" value="" id="input">
+    <button onclick="clickHere()">Submit</button>
+    <script>
+     function clickHere(){
+        let a=document.getElementById("head").innerHTML;
+        let b=a.split(" ");
+        console.log();
+        console.log(a[0].toUpperCase);
+        // console.log(b);
+        // let c=a.replace(b[0],"JJK");
+        // console.log(c);
+        // console.log(b[0].length);
+        for(i=0; i<b.length; i++){
+            let wordNum=b[i];
+            console.log(wordNum[0].toUpperCase());
+            console.log(wordNum[i].toLowerCase());
+
+ 
+            
+
+        }
+        console.log(b);
+
+        console.log(fr[0].toUpperCase());
+     }
+    </script>
+
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
