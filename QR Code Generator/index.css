@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(40, 131, 250);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Mulish', sans-serif;
+    
+}
+ 
+.text{
+    width: 300px;
+    background-color: #fff;
+    padding: 30px 30px;
+    border-radius: 5px;
+}
+.text input{
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 2px;
+    border: 1px solid black;
+
+}
+.text .qr-img{
+    
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+     border: none;
+     border-radius: 4px;
+     
+     
+}
+.text button{
+    width: 306px;
+    height: 40px;
+    background-color:rgb(40, 131, 250) ;
+    color: white;
+    font-size: 19px;
+    border: none;
+    border-radius: 4px;
+}

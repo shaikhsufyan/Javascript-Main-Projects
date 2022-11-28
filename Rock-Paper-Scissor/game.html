@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+
+    <div class="heading">
+        <h1>Janken-Rock Paper Scissor</h1>
+    </div>
+
+    <div class="first">
+        <span class="inner">
+            <h1 class="name">User</h1>
+            <h1 id="Myscore">0</h1>
+        </span>
+        <h1>:</h1>
+
+        <div>
+            <span class="inner">
+                <h1 class="name">Computer</h1>
+                <h1 id="Comscore">0</h1>
+            </span>
+
+        </div>
+    </div>
+
+    <div class="data">
+        <h2>User : <img id="img"> </h2>
+        <h2>Computer : <img id="Aimg"> </h2>
+        <h1>Winner :<span id="result">
+                <h1>
+            </span> </h1>
+    </div>
+
+
+
+    <div class="images">
+        <img onclick="imgfun1()" src="rock.png">
+        <img onclick="imgfun2()" src="paper.png">
+        <img onclick="imgfun3()" src="scissor.png">
+
+    </div>
+
+    <h1 id="result"></h1>
+
+    <script src="game.js"></script>
+</body>
+
+</html>
