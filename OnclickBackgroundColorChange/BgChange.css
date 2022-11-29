@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    margin-top: 20%;
+    color: white;
+}
+.btn{
+    text-align: center;
+     
+}
+button{
+    width: 200px;
+    height: 47px;
+    background-color: gray;
+    border-radius: 6px;
+    color: white;
+    font-size: 24px;
+    border: 2px solid white;
+}
